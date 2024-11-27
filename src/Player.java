@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public abstract class Player {
+    protected Symbol symbol;
 
-public class Player {
+    public Player(Symbol symbol) {
+        this.symbol = symbol;
+    }
+
+
+    public abstract void makeMove(Board board);
 }
+

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public enum Symb {
+public enum Symbol {
+    x, o, empty
 }
