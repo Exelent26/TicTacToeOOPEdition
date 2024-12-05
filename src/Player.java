@@ -5,7 +5,6 @@ public abstract class Player {
         this.symbol = symbol;
     }
 
-
     public abstract void makeMove(Board board);
 }
 

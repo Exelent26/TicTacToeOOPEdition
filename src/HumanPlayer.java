@@ -6,7 +6,7 @@ public class HumanPlayer extends Player {
 
     public void makeMove(Board board){
 
-        Coordinates playerCoordinates = PlayerInput.makeAvailableCoordinate(board);
+        Coordinates playerCoordinates = board.inputAvailableCoordinate(board);
 
         board.setSymbol(playerCoordinates, symbol);
     }

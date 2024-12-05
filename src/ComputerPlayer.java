@@ -7,7 +7,7 @@ public class ComputerPlayer extends Player {
 
     @Override
     public void makeMove(Board board) {
-        Coordinates computerCoordinate = ComputerPlayerTern.MakeComputerCoordinate(board);
+        Coordinates computerCoordinate = ComputerPlayerTurn.makeComputerCoordinate(board);
         board.setSymbol(computerCoordinate, symbol);
     }
 }
